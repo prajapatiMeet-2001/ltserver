@@ -29,7 +29,7 @@
   "scripts": {
     "test": "mocha --check-leaks --require esm './**/*.test.js'",
     "start": "./bin/server",
-    "run": "node  bin/server --port 1234",
-    "dev": "node-dev bin/server --port 1234"
+    "run": "node  bin/server --port 8080",
+    "dev": "node-dev bin/server --port 8080"
   }
 }
